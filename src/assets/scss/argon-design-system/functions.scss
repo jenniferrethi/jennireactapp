@@ -21,3 +21,7 @@
 @function shapes-dark-color($key: "step-1-gradient-bg") {
 	@return map-get($shapes-dark-colors, $key);
 }
+
+@function shapes-pink-color($key: "step-1-gradient-bg") {
+	@return map-get($shapes-pink-colors, $key)
+}

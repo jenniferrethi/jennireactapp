@@ -72,12 +72,6 @@ class DemoNavbar extends React.Component {
             id="navbar-main"
           >
             <Container>
-              <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
-                <img
-                  alt="..."
-                  src={require("assets/img/brand/argon-react-white.png")}
-                />
-              </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
                 <span className="navbar-toggler-icon" />
               </button>
@@ -172,7 +166,6 @@ class DemoNavbar extends React.Component {
                       </div>
                     </DropdownMenu>
                   </UncontrolledDropdown>
-                */}
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
@@ -192,9 +185,41 @@ class DemoNavbar extends React.Component {
                         Register
                       </DropdownItem>
                     </DropdownMenu>
-                  </UncontrolledDropdown>
+                  </UncontrolledDropdown>  */}
                 </Nav>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
+                  <NavItem>
+                    <NavLink
+                      className="nav-link-icon"
+                      href="https://www.linkedin.com/in/jennifer-rethi-57b2a6129/"
+                      id="tooltip356693869"
+                      target="_blank"
+                    >
+                      <i className="fa fa-linkedin" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        LinkedIn
+                      </span>
+                    </NavLink>
+                    <UncontrolledTooltip delay={0} target="tooltip356693869">
+                      Add me on LinkedIn
+                    </UncontrolledTooltip>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                      className="nav-link-icon"
+                      href="https://github.com/jenniferrethi"
+                      id="tooltip112445449"
+                      target="_blank"
+                    >
+                      <i className="fa fa-github" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        Github
+                      </span>
+                    </NavLink>
+                    <UncontrolledTooltip delay={0} target="tooltip112445449">
+                      Follow me on Github
+                    </UncontrolledTooltip>
+                  </NavItem>
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
@@ -226,37 +251,6 @@ class DemoNavbar extends React.Component {
                     <UncontrolledTooltip delay={0} target="tooltip356693867">
                       Follow me on Insta
                     </UncontrolledTooltip>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      className="nav-link-icon"
-                      href="https://github.com/jenniferrethi"
-                      id="tooltip112445449"
-                      target="_blank"
-                    >
-                      <i className="fa fa-github" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Github
-                      </span>
-                    </NavLink>
-                    <UncontrolledTooltip delay={0} target="tooltip112445449">
-                      Follow me on Github
-                    </UncontrolledTooltip>
-                  </NavItem>
-                  <NavItem className="d-none d-lg-block ml-lg-4">
-                    <Button
-                      className="btn-neutral btn-icon"
-                      color="default"
-                      href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-navbar"
-                      target="_blank"
-                    >
-                      <span className="btn-inner--icon">
-                        <i className="fa fa-cloud-download mr-2" />
-                      </span>
-                      <span className="nav-link-inner--text ml-1">
-                        Download
-                      </span>
-                    </Button>
                   </NavItem>
                 </Nav>
               </UncontrolledCollapse>
