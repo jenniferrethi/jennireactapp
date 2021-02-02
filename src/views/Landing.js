@@ -74,7 +74,7 @@ class Landing extends React.Component {
                         Bachelors of Science in Computer Science, Minor in Business @ UT Austin
                       </h3>
                       <p className="lead text-white">
-                        Hey there! I'm Jenni. I enjoy full stack web development & cloud solution development. In general, I like understanding how things work & experimenting with technology :) I believe in the value of learning, teaching, hard work, dedication and positivity.
+                        Hey there! I'm Jenni. I enjoy front end web development & cloud solution development. In general, I like understanding how things work & experimenting with technology :) I believe in the value of learning, teaching, hard work, dedication and positivity.
                       </p>
                     </Col>
                   </Row>
@@ -86,7 +86,7 @@ class Landing extends React.Component {
                     />
                 </div>
               </Container>
-              {/* SVG separator */}
+              {/* SVG separator
               <div className="separator separator-bottom separator-skew">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -101,10 +101,10 @@ class Landing extends React.Component {
                     points="2560 0 2560 100 0 100"
                   />
                 </svg>
-              </div>
+              </div> */}
             </section>
-            {/* 1st Hero Variation */}
           </div>
+          {/*
           <section className="section section-lg pt-lg-0 mt--200">
             <Container>
             <Row>
@@ -376,7 +376,7 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-            {/* SVG separator
+            SVG separator
             <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
