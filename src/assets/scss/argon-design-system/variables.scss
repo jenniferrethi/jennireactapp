@@ -176,14 +176,14 @@ $shapes-dark-colors: map-merge((
 
 $shapes-pink-colors: () !default;
 $shapes-pink-colors: map-merge((
-  "step-1-gradient-bg":         #C09ADB,
-  "step-2-gradient-bg":         #623C74,
-  "step-3-gradient-bg":         #825B97,
-  "span-1-bg":                  #C09ADB,
-  "span-2-bg":                  #431C52,
-  "span-3-bg":                  #A17BB9,
-  "span-4-bg":                  #A17BB9,
-  "span-5-bg":                  #431C52
+  "step-1-gradient-bg":         #DE5D91,
+  "step-2-gradient-bg":         #FFBAC8,
+  "step-3-gradient-bg":         #FC9CB6,
+  "span-1-bg":                  #FFBAC8,
+  "span-2-bg":                  #FFDEB8,
+  "span-3-bg":                  #DE5D91,
+  "span-4-bg":                  #FB7BAA,
+  "span-5-bg":                  #FC9CB6
 ), $shapes-pink-colors);
 
 // Translucent color variations
